@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "generated-helloworld"
+version = "0.1.0"
+description = ""
+authors = ["loynoir <loynoir@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+grpcio-tools = "^1.43.0"
+grpcio = "^1.43.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
